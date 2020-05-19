@@ -19,12 +19,12 @@
 /* Begin PBXFileReference section */
 		4B9F9DB037728F65224E77CD /* Pods-QCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCamera.release.xcconfig"; path = "Target Support Files/Pods-QCamera/Pods-QCamera.release.xcconfig"; sourceTree = "<group>"; };
 		B94324FB24726E5900A2B3B3 /* QCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B94324FE24726E5900A2B3B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		B94324FF24726E5900A2B3B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		B943250124726E5900A2B3B3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SceneDelegate.h; path = ../SceneDelegate.h; sourceTree = "<group>"; };
-		B943250224726E5900A2B3B3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SceneDelegate.m; path = ../SceneDelegate.m; sourceTree = "<group>"; };
-		B943250424726E5900A2B3B3 /* QCPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QCPlayer.h; path = ../QCPlayer.h; sourceTree = "<group>"; };
-		B943250524726E5900A2B3B3 /* QCPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QCPlayer.m; path = ../QCPlayer.m; sourceTree = "<group>"; };
+		B94324FE24726E5900A2B3B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B94324FF24726E5900A2B3B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B943250124726E5900A2B3B3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B943250224726E5900A2B3B3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B943250424726E5900A2B3B3 /* QCPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCPlayer.h; sourceTree = "<group>"; };
+		B943250524726E5900A2B3B3 /* QCPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCPlayer.m; sourceTree = "<group>"; };
 		B943250824726E5900A2B3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B943250A24726E5B00A2B3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B943250D24726E5B00A2B3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,16 +60,7 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B919E79F2472EBA800748062 /* QCPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				B943250424726E5900A2B3B3 /* QCPlayer.h */,
-				B943250524726E5900A2B3B3 /* QCPlayer.m */,
-			);
-			path = QCPlayer;
-			sourceTree = "<group>";
-		};
-		B919E7A02472EBB600748062 /* AppDelegate */ = {
+		B919E7A124736D4F00748062 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				B94324FE24726E5900A2B3B3 /* AppDelegate.h */,
@@ -78,6 +69,15 @@
 				B943250224726E5900A2B3B3 /* SceneDelegate.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B919E7A224736D5E00748062 /* QCPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B943250424726E5900A2B3B3 /* QCPlayer.h */,
+				B943250524726E5900A2B3B3 /* QCPlayer.m */,
+			);
+			path = QCPlayer;
 			sourceTree = "<group>";
 		};
 		B94324F224726E5900A2B3B3 = {
@@ -101,8 +101,8 @@
 		B94324FD24726E5900A2B3B3 /* QCamera */ = {
 			isa = PBXGroup;
 			children = (
-				B919E7A02472EBB600748062 /* AppDelegate */,
-				B919E79F2472EBA800748062 /* QCPlayer */,
+				B919E7A124736D4F00748062 /* AppDelegate */,
+				B919E7A224736D5E00748062 /* QCPlayer */,
 				B943250724726E5900A2B3B3 /* Main.storyboard */,
 				B943250A24726E5B00A2B3B3 /* Assets.xcassets */,
 				B943250C24726E5B00A2B3B3 /* LaunchScreen.storyboard */,
